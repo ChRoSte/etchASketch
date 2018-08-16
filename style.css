@@ -1,14 +1,109 @@
 #etchPad {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border: 1px solid black;
+    border-radius: 5px;
 }
-
 
 .cell {
     float: left;
 }
 
-.clearFloat {
-    float: clear;
+main {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+main, header {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainDiv {
+    float: left;
+}
+
+#etchMenu {
+}
+
+#etchContainer {
+    margin-right: 20px;
+}
+
+#colorPalette {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colorOption {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(71, 73, 79);
+    background-image: linear-gradient(rgb(67, 105, 182), rgb(59, 92, 160) 66%, rgb(54, 83, 145));
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat-x: ;
+    background-repeat-y: ;
+    background-size: auto;
+    border-bottom-color: rgb(35, 36, 39);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(47, 48, 52);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(47, 48, 52);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(47, 48, 52);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 36px;
+    line-height: 35px;
+    margin-top: 10px;
+    outline: none;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    position: relative;
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px;
 }

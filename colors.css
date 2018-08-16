@@ -1,0 +1,32 @@
+#red {
+    background-color: rgb(255,0,0);
+}
+
+#orange {
+    background-color: rgb(255,165,0);
+}
+
+#yellow {
+    background-color: rgb(255,255,0);
+}
+
+#green {
+    background-color: rgb(0,128,0);
+}
+
+#blue {
+    background-color: rgb(0,0,255);
+}
+
+#indigo {
+    background-color: rgb(0,0,128);
+}
+
+#violet {
+    background-color: rgb(128,0,128);
+}
+
+#black {
+    background-color: rgb(0,0,0);
+}
+

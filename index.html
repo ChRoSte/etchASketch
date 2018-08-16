@@ -5,12 +5,36 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="colors.css">
     </head>
     <body>
+        <header>
+            <h1>Sketch!</h1>
+        </header>
         <main>
-            <button id="reset">Reset</button>
-            <div id="etchPad"></div>
+            <!--<button id="reset">Reset</button> <br> -->
+            <div id="etchContainer" class="mainDiv">
+                <div id="etchPad"></div>
+            </div>
+            <div id="etchMenu" class="mainDiv">
+                <div id="colorPalette">
+                    <div id="red" class="colorOption"></div>
+                    <div id="orange" class="colorOption"></div>
+                    <div id="yellow" class="colorOption"></div>
+                    <div id="green" class="colorOption"></div>
+                    <div id="blue" class="colorOption"></div>
+                    <div id="indigo" class="colorOption"></div>
+                    <div id="violet" class="colorOption"></div>
+                    <div id="black" class="colorOption"></div>
+                </div>
+                
+                <div id="buttonsDiv">
+                    <button id="clear" class="button">Clear</button> <br/>
+                    <button id="resolution" class="button">Change Resolution</button>
+                </div>
+            </div>
         </main>
         
         
